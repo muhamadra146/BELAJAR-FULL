@@ -1,0 +1,17 @@
+
+
+/* <!-- ngambil font menggunakan media bisa untuk font di luar google font --> */
+@font-face {
+    font-family: 'Rubik Iso';
+    src: url(RubikIso-Regular.ttf) format(truetype);
+}
+
+
+h1 {
+    font-family: 'Smokum', cursive;
+    font-size: 50;
+}
+
+h2 {
+    font-family: 'Rubik Iso';
+}

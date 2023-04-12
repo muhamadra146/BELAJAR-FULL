@@ -1,0 +1,38 @@
+/* scale buat memperbesar/ memperkecil */
+/* rotate buat memutar */
+/* skew membuat condong/miring */
+/* translate mengubah posisi */
+
+/* scale(angka), scalex(angka), scaley(angka)
+   rotate(deg), rotatex(deg), rotatey(deg) 
+   skew(deg), skewx(deg), skewy(deg)
+   translate(px), translatex(px), translatey(deg)*/
+
+.kotak {
+    width: 150;
+    height: 150;
+    background-color: blue;
+    margin: auto;
+    margin-top: 20;
+    transition: 2s;
+}
+
+.kotak1:hover {
+    transform: scale(1.5);
+}
+
+.kotak2:hover {
+    transform: rotate(360deg);
+}
+
+.kotak3:hover {
+    transform: skew(360deg);
+}
+
+.kotak4:hover {
+    transform: translate(50px,-100px);
+}
+
+.kotak5:hover {
+    transform: rotate(720deg)  scale(1.5);
+}

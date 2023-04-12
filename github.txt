@@ -1,0 +1,9 @@
+git checkout (buat pindah branch)
+git checkout -b "nama-branch" (menambahkan branch bayangan ini cuma ada di local kita)
+git push -u origin "nama branch" (buat push ke github) 
+git branch nama-branch (buat bikin branch baru)
+git branch (buat liat branch di git)
+git branch -a (buat liat branch remote)
+git push origin -d nama-branch (buat ngapus branch remote)
+
+vercel (web browser buat liat ui)

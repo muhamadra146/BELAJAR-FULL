@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Creepster', cursive;
+}
+
+header {
+    background-color: darkgray;
+    height: 60;
+    line-height: 60px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 70;
+        ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 100;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+.section1 {
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(176deg, rgba(0,0,0,1) 50%, rgb(37, 0, 0) 50%);
+    position: relative;
+    .content1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        .hero {
+            background-image: url(../gambar/1.jpg);
+            width: 500px;
+            height: 50vh;
+            background-size: cover;
+            
+         }
+         .skeleton h1 {
+            color: rgba(255, 0, 0, 0.226);
+            font-size: 200;
+            line-height: 50vh;
+            margin-right: 300;
+        }
+    }
+}
+
+.section2 {
+    width: 100%;
+    height: 200;
+    background: rgb(0,0,0);
+    background: linear-gradient(176deg, rgba(37,0,0,1) 50%, rgb(0, 0, 0) 50%);
+   }

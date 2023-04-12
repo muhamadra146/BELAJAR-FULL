@@ -1,0 +1,62 @@
+
+
+.container {
+    width: 1000;
+    height: auto;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 100;
+    
+}
+
+.container:hover .kotak {
+    margin-left: 900;
+    opacity: 30%;
+    transform: rotate(720deg);
+}
+
+.kotak {
+    width: 100;
+    height: 100;
+    text-align: center;
+}
+
+/* lajunya makin makin cepet (pelan dulu trus kenceng) */
+.kotak1 {
+    background-color: aqua;
+    transition: all 3s ease-in;
+}
+
+/* lajunya melambat ditengah (kenceng pelan kenceng) */
+.kotak2 {
+    background-color: red;
+    transition: all 3s ease-in-out;
+}
+
+/* lajunya semakin melambat (kenceng dulu trs pelan)*/
+.kotak3 {
+    background-color:yellow;
+    transition: all 3s ease-out;
+}
+.kotak4 {
+    background-color: green;
+    transition:  3s linear;
+}
+
+/* bisa diatur liat di inspek halaman */
+.kotak5 {
+    background-color: dimgrey;
+    transition: all 3s cubic-bezier(0.2,-0.43, 1,-0.87);
+}
+
+/* atribut terakhir adalah delay */
+/* all 3s cubic-bezier(0.33,-0.54, 0.75, 1.79) 3s(delay) */
+.kotak6 {
+    background-color: coral;
+    transition: all 3s cubic-bezier(0.33,-0.54, 0.75, 1.79) 3s;
+}
+
+.gabung {
+    background-color: chartreuse;
+    transition: transform 3s, margin-left 3s 3s, opacity 3s 6s;
+}

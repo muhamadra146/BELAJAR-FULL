@@ -1,0 +1,44 @@
+/* box shadow multiple*/
+/* 0(x) 0(y) 5px(blur) 5px(size) warna */
+
+/* buat shadow dalem kontainer pake inset */
+/* inset 0(x) 0(y) 5px(blur) 5px(size) warna */
+
+/* rgba (255,255,255,75(kaya opacity)) */
+
+div {
+width: 400;
+height: 400;
+background-color: aqua;
+box-shadow: 0 0 5px 5px red,
+            0 0 5px 10px blue,
+            0 0 5px 15px yellow,
+            0 0 0px 20px green;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+border-radius: 50%;
+transition: 0.8s;
+text-align: center;
+}
+
+h1 {
+    padding-top: 50;
+    font-size: 50px;
+    text-shadow: 0px 6px 3px red;
+    color: aqua;
+}
+
+div:hover {
+    width: 300;
+    height: 300;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 5px 5px green,
+                0 0 5px 10px yellow,
+                0 0 5px 15px blue,
+                0 0 0px 20px red;
+                
+}

@@ -1,0 +1,282 @@
+/* properti pada containernya */
+/* flex-direction
+   row              (dari kiri kekanan) 
+   row              (reverse dibalik dari kanan ke kiri)
+   coloumn          (dari atas kebawah)
+   coloumn reverse  (dari bawah dulu baru atas) */
+
+/* flex-wrap
+   no-wrap      (semua isi content di container berada dalam 1 baris meskipun ukurannya ga cukup)
+   wrap         (kalo container ukurannya ga cukup (content > container)content bakal diturunin kebawah) 
+   wrap reverse (kalo ukurannya ga cukup bakal diturunin kebawah tapi dari belakang atau content terakhir*/
+
+
+/* justify-content buat horizontal atau medatar kiri kanan
+   start        (content mulai dari awal ke belakang atau dari kiri kekanan)
+   end          (content mulai dari belakang ke awal atau dari kanan kekiiri)
+   center       (content ditengah dari container/pembungkus)
+   space-betwen (content metok kiri kanan lalu sisanya dibagi rata)
+   space-around (content kiri kanan sama jaraknyanya)
+   space-evenly (content jaraknya dibagi sama rata semua) */
+
+/* align-item buat vertikal atau atas bawah 
+   flex-start   (content mulai dari atas kebawah)
+   flex-end     (content mulai dari bwah ke atas) 
+   center       (content berada ditengah vertikal)
+   stretch      (content full vertikal aktif jika heightnya 0)
+   baseline     (content mengikuti teks)*/
+
+/* align-content sama dengan align item tapi hanya berlaku jika contentnya lebih dari 1 baris
+   flex-start
+   flex-end
+   center
+   stretch
+   space-betwen
+   space-around*/
+
+/* properti pada itemnya */
+/* order (buat ngatur posisi itemnya atau atur yg mana yg mao duluan)*/
+/* flex-grow (buat ngautur besar item)*/
+/* align-self (buat ngatur posisi item)*/
+*,html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.containerr {
+    width: 1000px;
+    background-color: white;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    background-color: aliceblue;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.satu, .dua, .tiga, .empat {
+    background-color: aqua;
+    width: 50px;
+    height: 20px;
+    margin: 5px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30;
+    margin-bottom: 5;
+}
+h4 {
+    text-align: center;
+    margin-top: 10;
+}
+
+/* flex-direction start */
+.flex-direction1 ul {
+    display: flex;
+    flex-direction: row;
+}
+.flex-direction2 ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex-direction3 ul {
+    display: flex;
+    flex-direction: column;
+}
+.flex-direction4 ul {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+}
+/* flex-direction end */
+
+
+/* flex-wrap start */
+.container-wrap {
+    width: 400px;
+    height: auto;
+    background-color: aliceblue;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+.flex-wrap ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap1 ul {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/* flex-wrap end */
+
+/* justify-content start */
+ul {
+    display: flex;
+}
+
+.start {
+    width: 1000;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+}
+.end {
+    width: 1000;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: end;
+}
+
+.center {
+    width: 1000;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.space-betwen ul {
+    width: 1000;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.space-arround ul {
+    width: 1000;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evenly ul{
+    width: 1000;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* justify-content end */
+
+/* align-item start */
+.container-align {
+    width: 1000px;
+    height: 100;
+    background-color: aliceblue;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-item {
+    margin-top: 50px;
+}
+
+.content1 {
+    display: flex;
+    align-items: flex-start;
+}
+.content2 {
+    display: flex;
+    align-items: flex-end;
+}
+.content3 {
+    display: flex;
+    align-items: center;
+}
+.satuu, .duaa, .tigaa, .empatt {
+    background-color: aqua;
+    width: 50px;
+    margin: 5px;
+}
+.content4 {
+    display: flex;
+    align-items: stretch;
+}
+.nama {
+    width: 1000;
+    margin: auto;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+/* align-item end */
+
+
+/* order start */
+.satuu{order: 2;}
+.duaa{order: 3;}
+.tigaa{order: 4;}
+.empatt{order: 1;}
+/* order end */
+
+/* flex-grow start */
+.container-grow {
+    width: 1000;
+    margin: auto;
+    display: flex;
+    border: 2px solid black;
+}
+
+.container-grow div{
+    flex: 1;
+}
+
+div.grow-dua {
+    flex: 2;
+}
+
+.grow-satu,.grow-dua,.grow-tiga,.grow-empat {
+    background-color: aqua;
+    margin: 5px;
+}
+/* flex-grow end */
+
+/* align-self start */
+.container-self {
+    width: 1000;
+    height: 100;
+    margin: auto;
+    display: flex;
+    border: 2px solid black;
+    margin-bottom: 1000;
+}
+
+.container-self div {
+    flex: 1;
+}
+
+.grow-satu {
+    align-self: flex-end;
+}
+
+.grow-dua {
+    align-self: center;
+}
+
+.grow-tiga {
+    align-self: stretch;
+}
+
+.grow-empat {
+    align-self: baseline;
+}
+/* align-self end */

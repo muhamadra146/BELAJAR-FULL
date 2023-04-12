@@ -1,0 +1,20 @@
+/* vendor prefix adalah sintaks khusus agar ccs3 berjalan di semua browser */
+/* contoh vendor prefix */
+/* -webkit-<properti css3> buat chrome, safari, opera versi terbaru */
+/* -moz-<properti css3> buat firefox */
+/* -ms-<properti css3> buat internet explorer */
+/* -o-<properti css3> buat opera versi lama */
+
+/* buat cek css3 suport apa engga di semua browser bisa cek di */
+/* shouldiprefix.com */
+/* caniuse.com */
+/* https://pleeease.io/play/  */
+/* atau bisa menggunakan plugin emmet  */
+
+/* untuk filter di chrome belum support jadi tambahin -webkit- */
+/* ini hanya contoh sekarang chrome udh support */
+
+img {
+    /* -webkit-filter: grayscale(100%); */
+    filter: grayscale(100%);
+}

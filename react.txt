@@ -1,0 +1,13 @@
+npx create-react-app my-app
+cd my-app
+npm start
+
+mkdir nama-file (bikin folder doang)
+cd nama-file (masuk ke folder)
+npx create-react-app nama-folder(bikin folder yg dalemnya ada modulnya)
+
+npmi axios (buat nginstal axios buat api)
+npm i react-router-dom (buat pindah page)
+npm i react-bootstrap bootstrap (buat instal bootstrap di react
+import 'bootstrap/dist/css/bootstrap.min.css'; masukin ini ke index.js biar dia global)
+

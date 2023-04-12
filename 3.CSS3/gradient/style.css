@@ -1,0 +1,37 @@
+/* linier gradient */
+/* color stop atau panjang warna*/
+/* background-image: linear-gradient(to right ,red 75%(warna merah stop di 75% dari container),yellow); */
+/* 90deg adalah arah derajat */
+/* bisa juga pake */
+/* to left , to top, to right , to bottom */
+/* to right bottom, to right top dan seterusnya */
+
+.nav {
+    width: 100%;
+    height: 60;
+    background-image: linear-gradient(to right ,red 75%,yellow);
+}
+
+.gradient {
+    margin-top: 10;
+    width: 100%;
+    height: 20;
+    background-image: linear-gradient(90deg,red,
+    yellow,blue,green,violet,black,
+    black,violet,green,blue,yellow,red);
+}
+
+/* radial gradient */
+
+.radial {
+    width: 300px;
+    height: 300px;
+    /* position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    border-radius: 50%;
+    background-image: radial-gradient(red, yellow);
+}

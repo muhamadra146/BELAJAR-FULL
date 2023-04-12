@@ -1,0 +1,584 @@
+* body ,html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 60;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.header .logo img {
+    width: 176;
+    line-height: 60px;
+    margin-left: 70;
+}
+
+.header nav ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 40;
+}
+
+.header nav img {
+    display: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonnav {
+    margin-right: 70;
+}
+
+.header button {
+    text-align: center;
+    width: 163;
+    height: 36;
+    color: white;
+    background-color: #312ECB;
+    border-radius: 10px;
+    border: none;
+}
+
+.navbutton {
+    display: none;
+}
+
+.header nav ul li a:hover,
+.header nav ul li a.active {
+    color: #312ECB;
+    text-shadow: 0 0 3px #FFF, 0 0 6px #FFF, 0 0 9px #FFF, 0 0 12px #007AFF, 0 0 15px #007AFF, 0 0 18px #007AFF, 0 0 21px #007AFF, 0 0 25px #007AFF;
+}
+
+.nav-toogle  {
+    display: none;
+}
+
+
+.section1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 700;
+    height: auto;
+    margin-left: 136;
+    margin-top: 240;
+}
+
+.section1 .content h1 {
+    font-size: 40;
+    font-weight: 700;
+}
+
+.section1 .content h2 {
+    margin-top: 20;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section1 .content button {
+    text-align: center;
+    width: 190;
+    height: 36;
+    margin-top: 25;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+
+.section1 .gambar {
+    width: 100%;
+    margin-top: 50;
+    text-align: end;
+    margin-right: 121;
+}
+
+.gambar img {
+    width: 622;
+    height: 350;
+}
+
+.section2 {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.section2 .gambar {
+    width: 100%;
+    margin-top: 90;
+    margin-left: 90;
+}
+
+.gambar img {
+    width: 590;
+    height: 570;
+}
+
+.section2 .about {
+    width: 100%;
+    height: auto;
+    margin-right: 121;
+    margin: auto;
+}
+
+.about h1 {
+    font-size: 40;
+    font-weight: 700;
+}
+
+.about p {
+    margin-top: 20;
+    font-size: 18;
+    font-weight: 400;
+}
+
+.why h1 {
+    margin-top: 220;
+    margin-left: 136;
+    font-size: 40;
+    font-weight: 700;
+}
+
+.section3 {
+    width: 100%;
+    height: auto;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 80;
+}
+
+.col1 {
+    width: 520;
+    height: auto;
+    margin-right: 139;
+}
+
+.col2 {
+    width: 520;
+    height: auto;
+}
+
+.section3 h5 {
+    margin-bottom: 30;
+}
+
+.section3 img {
+    width: 60;
+    height: 60;
+}
+
+
+.kata-kata {
+    width: 875;
+    height: 120;
+    text-align: center;
+    margin: auto;
+    margin-top: 300;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.section4 {
+    width: 100%;
+    height: 723;
+    background-image: url(gambar/Vector1.png);
+    background-size: cover;
+    margin-top: 142;
+    padding-top: 223;
+}
+
+
+.section4 h4 {
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 144;
+}
+
+.section4 .card {
+    margin-top: 78;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 .card1 {
+    width: 338;
+    height: 185;
+    background: #0D1C37;
+    margin-right: 75;
+    border-radius: 10px;
+    padding-left: 34;
+    padding-top: 28;
+
+}
+
+.card1 img {
+    width: 60;
+    height: 60;
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    margin-top: 20;
+}
+
+.consult {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #0D1C37;
+    text-align: center;
+    margin-top: 1100;
+}
+
+.section5 {
+    width: 100%;
+    height: auto;
+    margin-top: 100;
+}
+
+.section5 h3 {
+    color: black;
+    margin-bottom: 20;
+}
+
+.section5 .form {
+    width: 1164;
+    height: auto;
+    margin: auto;
+}
+
+.section5 input {
+    width: 100%;
+    height: 50;
+    margin-bottom: 40;
+    margin-top: 20;
+    border-radius: 10px;
+}
+
+.section5 .input-box {
+    width: 100%;
+    height: 250;
+}
+
+.section5 label {
+    text-align: left;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.grid-container {
+    width: 100%;
+    height: 380;
+    display: grid;
+    grid-template-columns: auto 340px 153px 107px;
+    background-color: #0D1C37;
+    gap: 0 120px;
+    padding-top: 75px;
+    padding-left: 71px;
+    padding-right: 75;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  .grid-container img { 
+    width: 268px;
+    height: 52px;
+  }
+
+  .grid-container p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 17;
+  }
+
+  .grid-container h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15;
+  }
+
+  .copyright {
+    background-color:#D9D9D9 ;
+    width: 100%;
+    height: 72;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright p {
+    font-size: 18;
+    font-weight: 600;
+    color: #6B717C;
+    margin-top: 25;
+    margin-left: 75;
+}
+
+.copyright ul li {
+    display: inline-block;
+    margin-left: 45;
+}
+
+.copyright .gambar {
+    margin-right: 75;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6,
+    .kata-kata,
+    .consult { 
+        padding: 20;
+        box-sizing: border-box;
+    }
+
+    .section1,
+    .content {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .gambar img {
+        width: 100%;
+        height: auto;
+        z-index: -1087;
+    }
+
+    .section2 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        justify-content: center;
+        display: block;
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .section2 .gambar {
+        width: 80%;
+        margin: 0;
+        display: flex;
+        margin: auto;
+    }
+
+    .why h1 {
+        width: 100%;
+        margin: 0;
+        margin: 50 0 50 0;
+        text-align: center;
+    }
+
+    .row {
+        display: block;
+        margin: 0;
+        margin-bottom: 30;
+    }
+
+    .section3 .col1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section3 .col2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .kata-kata {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 100;
+    }
+
+    .kata-kata p {
+        margin-top: 50;
+    }
+
+    .section4 {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .section4 h4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100;
+        margin: 0;
+    }
+
+    .section4 .card {
+        display: block;
+    }
+
+    .section4 .card1 {
+        margin: auto;
+        text-align: center;
+        margin-top: 10;
+        border-radius: 10;
+    }
+
+    .section5 .form {
+        width: 100%;
+        height: auto;
+    }
+
+    .section6 {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .col1 {
+        display: none;
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* responsive footer */
+@media screen and (max-width: 1315px) {
+
+    .grid-container {
+        height: auto;
+        grid-template-columns: auto auto auto auto;
+    }
+    .item1 {
+        grid-column: 1/5;
+    }
+ }
+
+@media screen and (max-width: 955px) {
+
+    .grid-container {
+        height: auto;
+        grid-template-columns: auto auto auto auto;
+    }
+    .item1, .item2, .item3, .item4 {
+        grid-column: 1/5;
+    }
+
+    .copyright p {
+        display: none;
+    }
+
+    .copyright ul  {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+ }
+
+@media screen and (max-width: 990px) {
+
+    .nav-toogle {
+        display: block;
+        margin-right: 50;
+    }
+
+    .header nav {
+        position: absolute;
+        width: 40%;
+        height: calc(100vh - 60vh);
+        background:#007AFF;
+        top: 60px;
+        right: -100%;
+        border: #312ECB 2px solid;
+        padding: 0 10;
+        z-index: 9999999;
+    }
+
+    .navbutton {
+        position: absolute;
+        bottom: 10;
+        display: flex;
+    }
+
+    .buttonnav {
+        display: none;
+    }
+
+    .header nav.active {
+        right: 0;
+        overflow-x: hidden;
+    }
+    
+    .header nav ul li {
+        display: flex;
+        text-align: center;
+        margin-bottom: 20;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .header nav ul li a {
+        color: #000000;
+    }
+
+    .header nav img {
+        display: flex;
+        width: 160;
+        position: absolute;
+        bottom: 50;
+    }
+
+    .gambar {
+        display: flex;
+        justify-content: center;
+    }
+
+ }

@@ -1,0 +1,46 @@
+
+img {
+    width: 200;
+    height: 200;
+}
+
+.gambar1 {
+    filter: blur(1px);
+}
+/* satuannya 100% atau 1 */
+.gambar2 {
+    filter: brightness(1.1);
+}
+
+.gambar3 {
+    filter: contrast(150%);
+}
+
+.gambar4 {
+    filter: saturate(0%);
+}
+
+.gambar5 {
+    filter: grayscale(100%);
+}
+
+.gambar6 {
+    filter: sepia(100%);
+}
+
+.gambar7 {
+    filter: hue-rotate(100deg);
+}
+
+/* efek negatif */
+.gambar8 {
+    filter: invert(100%);
+}
+
+.gambar9 {
+    filter: opacity(.5);
+}
+
+.gambar10 {
+    filter: drop-shadow(5px 5px 5px black);
+}

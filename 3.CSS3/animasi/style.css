@@ -1,0 +1,36 @@
+/* properti yg bisa ditambahin ke animation adalaha */
+/* name(nama animasinya),duration, timing-function, delay, iteration-count, direction, fill-mode, play-state */
+
+/* interation-count : perulangan (<angka>/infinite(ulang terus menerus))  */
+/* direction : jalannya animasi (normal/reverse/alternate/alternate reverse)
+   normal dari awal animasi ke akhir, 
+   reverse dari akhir animasi ke awal,
+   alternate bulak balik awal-akhir akhir-awal*/
+/* fill-mode : keadaan akhir ( forward, backward, both)
+   forward akan berhenti di keadaan akhir animasi*/
+/* play-state : untuk menjalankan dan menghentikan animasi (running/pause) */
+
+.kotak {
+    width: 200;
+    height: 200;
+    margin-top: 40;
+    background-color: aqua;
+    animation: animasi-kotak 5s 3s infinite alternate;
+}
+
+
+@keyframes animasi-kotak {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 800;
+        height: 200;
+    }
+
+    100% {
+        width: 800;
+        height: 500;
+    }
+}

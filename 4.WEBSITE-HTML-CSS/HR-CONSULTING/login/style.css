@@ -1,0 +1,109 @@
+*,html ,body, .container{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5860A6;
+}
+
+.container {
+    width: 61rem;
+    height: 32.3125rem;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+.form {
+    width: 30.5rem;
+    height: 32.3125rem;
+    background-color: white;
+    background-size: cover;
+    padding-left: 50;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-sizing: border-box;
+}
+
+p {
+    padding-top: 90;
+    font-family: inter, sans-serif;  
+    font-weight: 400;
+}
+
+h2 {
+    padding-top: 10;
+    font-size: 25;
+    font-weight: 700;
+    font-family: inter, sans-serif;
+}
+
+.username {
+    margin-top: 46;
+}
+
+.password {
+    margin-top: 15;
+}
+
+.form label {
+    font-size: 18;
+    font-weight: 400;
+    font-family: inter, sans-serif;
+}
+
+.form input {
+    margin-top: 10;
+    width: 388;
+    height: 43;
+    font-family: inter, sans-serif;
+    border-radius: 5px;
+}
+
+.gambar {
+    width: 30.5rem;
+    height: 32.3125rem;
+    background-image: url(Rectangle\ 2.png);
+    background-position: 100%;
+    background-size: cover;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+button {
+    margin-top: 28;
+    width: 388px;
+    height: 36px;
+    left: 282px;
+    top: 644px;
+    background: #5860A6;
+    border-radius: 5px;
+    border: none;
+}
+
+button h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+
